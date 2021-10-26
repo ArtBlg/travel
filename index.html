@@ -1,71 +1,113 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
-    <title>Villes de Russie</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <title>Города России</title>
+    <link rel="stylesheet" href="index.css" />
   </head>
   <header>
-    <h1>Villes visit&eacutees</h1>
+    <h1>Города России</h1>
   </header>
 
-  <body>
-    <h4>Voici les villes que nous avons visit&eacute:</h4>
+  <body bgcolor="#D1E8E4">
+    <h3>Вот города, которые я посетил:</h3>
 
-    <!--Liste des villes-->
-    <ul>
-      <li>Moscou</li>
-      <li>Saint-Petersbourg</li>
-      <li>Serguiev-Posad</li>
-      <li>Istra</li>
-      <li>Dmitrov</li>
-    </ul>
-    <button>Bouton magique</button>
+    <!--Список городов в таблице-->
 
-    <table border="1">
+    <table border="0">
       <caption>
-        Caract&eacuteristiques des villes
+        Характеристики городов
       </caption>
       <thead>
-        <tr>
-          <th>Ville</th>
-          <th>Nb. habitants</th>
-          <th>Superficie</th>
-          <th>Maire</th>
+        <tr class="first">
+          <th></th>
+          <th>Город</th>
+          <th>Кол. жителей</th>
+          <th>Площадь</th>
+          <th>Мэр</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>Moscou</td>
+          <td>
+            <img src="flag_lib/moscow.png" alt="Флаг Москвы" height="75px" />
+          </td>
+          <td>
+            <a href="cities/moscow.html">Москва</a>
+          </td>
           <td>12,6M</td>
           <td>2511 km&sup2;</td>
-          <td>Sergue&iuml; Sobianine</td>
+          <td>Сергей Собъянин</td>
         </tr>
-        <tr>
-          <td>Saint-Petersbourg</td>
+        <tr class="second">
+          <td>
+            <img
+              src="flag_lib/SPB.png"
+              alt="Флаг Санкт-Петербурга"
+              height="75px"
+            />
+          </td>
+          <td>
+            <a href="cities/SPB.html">Санкт-Петербург</a>
+          </td>
           <td>4,9M</td>
           <td>1439 km&sup2;</td>
-          <td>Alexander Beglov</td>
+          <td>Александр Беглов</td>
         </tr>
         <tr>
-          <td>Serguiev-Posad</td>
-          <td>98784</td>
+          <td>
+            <img
+              src="flag_lib/nizhny.png"
+              alt="Флаг Нижнего Новгорода"
+              height="75px"
+            />
+          </td>
+          <td>
+            <a href="cities/nizhny-novgorod.html">Нижний Новгород</a>
+          </td>
+          <td>1,2M</td>
+          <td>410 km&sup2;</td>
+          <td>Юрий Шалабаев</td>
+        </tr>
+        <tr class="second">
+          <td>
+            <img
+              src="flag_lib/serguiev-posad.png"
+              alt="Флаг Сергиева-Посада"
+              height="75px"
+            />
+          </td>
+          <td>
+            <a href="cities/serguiev-posad.html">Сергиев-Посад</a>
+          </td>
+          <td>98,784</td>
           <td>50 km&sup2;</td>
-          <td>Mikhail Tokarev</td>
+          <td>Михаил Токарев</td>
         </tr>
         <tr>
-          <td>Istra</td>
-          <td>33558</td>
+          <td>
+            <img src="flag_lib/istra.png" alt="Флаг Истры" height="75px" />
+          </td>
+          <td>
+            <a href="cities/istra.html">Истра</a>
+          </td>
+          <td>33,558</td>
           <td>7 km&sup2;</td>
-          <td>Tatiana Vituchyeva</td>
+          <td>Татьяна Витушева</td>
         </tr>
-        <tr>
-          <td>Dmitrov</td>
-          <td>68397</td>
+        <tr class="second">
+          <td>
+            <img src="flag_lib/dmitrov.png" alt="Флаг Дмитрова" height="75px" />
+          </td>
+          <td>
+            <a href="cities/dmitrov.html">Дмитров</a>
+          </td>
+          <td>68,397</td>
           <td>26 km&sup2;</td>
-          <td>Ilya Ponochevnyi</td>
+          <td>Илья Поночевный</td>
         </tr>
       </tbody>
-    </table><br>
-    </body>
+    </table>
+    <br />
+  </body>
 </html>

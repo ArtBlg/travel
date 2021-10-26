@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+h1 {
+  color: brown;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 0 rgba(107, 45, 45, 0.404);
+  text-align: center;
+  font-family: "Playfair Display", serif;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 40px;
+  width: 100%;
+}
+
+td {
+  height: 80px;
+}
+
+td img {
+  vertical-align: middle;
+}
+
+.first {
+  background-color: darkgray;
+}
+
+.second {
+  background-color: rgb(228, 228, 228);
+}
+
+a {
+  color: brown;
+}
